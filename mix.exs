@@ -30,7 +30,8 @@ defmodule GCEStrategy.MixProject do
   defp deps do
     [
       {:libcluster, "~> 3.1"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
