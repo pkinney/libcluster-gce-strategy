@@ -1,7 +1,7 @@
 Google Compute Engine Cluster Strategy
 ===
 
-[![Hex.pm](https://img.shields.io/hexpm/v/libcluster_gcp_strategy.svg)](https://hex.pm/packages/libcluster_gcp_strategy)
+[![Hex.pm](https://img.shields.io/hexpm/v/libcluster_gce_strategy.svg)](https://hex.pm/packages/libcluster_gce_strategy)
 
 This Cluster Strategy can be used with [libcluster](https://github.com/bitwalker/libcluster) to automatically connect nodes running on GCE instances within the same Instance Group.
 
@@ -10,7 +10,7 @@ You can follow the [GCP tutorial](https://cloud.google.com/community/tutorials/e
 Usage
 ---
 
-Add the `libcluster_gcp_strategy` package to your dependencies:
+Add the `libcluster_gce_strategy` package to your dependencies:
 
 ```elixir
   defp deps do
